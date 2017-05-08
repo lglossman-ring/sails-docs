@@ -10,7 +10,7 @@ Sails supports using TypeScript to write your custom app code (like [actions](ht
    ```
 3. Add the following line at the top of your app's `app.js` file:
    ```javascript
-   require('ts-node');
+   require('ts-node/register');
    ```
 4. Add a `config/extensions.js` file to your project with:
    ```javascript
